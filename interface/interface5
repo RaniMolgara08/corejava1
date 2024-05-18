@@ -1,0 +1,24 @@
+public class Nestedinterface implements Myinterface.Myinnerinterface {
+// nested interface
+public interface Myinterface {
+	
+	void calculateArea();
+	
+	//nested interface
+	
+	interface Myinnerinterface{
+		
+		int id=20;
+		void print();
+		
+	}
+
+}
+
+	@Override
+	public void print() {
+		System.out.println("inner interface method");
+		
+	}
+
+}

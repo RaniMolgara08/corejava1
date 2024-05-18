@@ -1,0 +1,9 @@
+// Interface programs
+
+public interface Bank {
+	
+	float rateofintresent() ;
+		
+	
+
+}
